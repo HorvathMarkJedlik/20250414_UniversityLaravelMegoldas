@@ -8,5 +8,5 @@ Accept: application/json
 
 
 ### 7. feladat
-DELETE  http://localhost:8000/api/delete-lector/10
+DELETE  http://localhost:8000/api/delete-lector/12
 Accept: application/json

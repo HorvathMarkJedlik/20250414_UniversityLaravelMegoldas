@@ -12,6 +12,7 @@ class Lector extends Model
     protected $guarded = [];
     public $timestamps = false;
     protected $primaryKey = '_id';
+    protected $hidden = ['_id'];
 
 
     /**

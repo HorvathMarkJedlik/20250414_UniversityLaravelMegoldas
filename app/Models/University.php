@@ -12,6 +12,7 @@ class University extends Model
     protected $guarded = [];
     public $timestamps = false;
     protected $primaryKey = '_id';
+    protected $hidden = ['_id', 'current_lector_id'];
 
     /**
      * Get all of the lectors for the University
